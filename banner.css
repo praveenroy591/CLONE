@@ -9,7 +9,8 @@ body{
 }
 nav .logo img{
     object-fit: contain;
-    max-width: 110PX;
+    max-width: 110px;
+    padding-top:8px ;
 }
 nav{
     background-color: #111;
