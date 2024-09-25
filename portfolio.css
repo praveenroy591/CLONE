@@ -21,6 +21,7 @@ nav .logo img{
     object-fit: contain;
     max-width: 110px;
     padding-top: 8px;
+    background-color: #111;
 }
 nav .action{
     display: flex;
@@ -40,6 +41,22 @@ nav .action .signup{
 }
 nav .action .signup:hover{
     background-color:#111;
+    transition: 0.8ms;
+}
+nav .action .login{
+    background-color: transparent;
+    color: #ffffff;
+    padding: 4px 14px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    cursor:pointer;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0 5px;
+}
+nav .action .login:hover{
+    background-color:#ffffffbf;
     transition: 0.8ms;
 }
 .banner{
