@@ -7,11 +7,6 @@ body{
     background-color: #252424;
     color: #ffffff;
 }
-nav .logo img{
-    object-fit: contain;
-    max-width: 110px;
-    padding-top:8px ;
-}
 nav{
     background-color: #111;
     display: flex;
