@@ -20,12 +20,14 @@ nav{
 nav .logo img{
     object-fit: contain;
     max-width: 110px;
-    padding-top: 8px;
+    padding-top: 12px;
     background-color: #111;
+    margin: -5px 0px -33.5px 0px;
 }
 nav .action{
     display: flex;
     margin: 10px 20px;
+    background-color: #111;
 }
 nav .action .signup{
     background-color: #e50914;
@@ -59,14 +61,19 @@ nav .action .login:hover{
     background-color:#ffffffbf;
     transition: 0.8ms;
 }
-.banner{
-    background-image:url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABfgiOtSPruFZ1VMM0kvXDjzuyh4J_uCiHdja4wlLftM9ue_KTdCrJFQXywKSpYCwPlDHDDbQw4MzgQWDFexhNMIuYseJy6uK4b3C.jpg?r=6e6&quot");
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    height: 600px;
+.title h1{
+    word-wrap: break-word;
+    color: #fff;
+    font-size: 30px;
+    font-size: 2.75rem;
+    font-weight: 400;
+    font-weight: 900;
+    line-height: 34px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    padding: 5px 0px;
 }
+
 .posters{
     display: flex;
     overflow-y: hidden;
