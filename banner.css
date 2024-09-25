@@ -13,6 +13,11 @@ nav{
     padding: 0 10px;
     justify-content: space-between; 
 }
+nav .logo img{
+    object-fit: contain;
+    max-width: 110px;
+    padding-top: 8px;
+}
 nav .action{
     display: flex;
     margin: 10px 20px;
