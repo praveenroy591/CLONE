@@ -149,3 +149,10 @@ footer .row{
 footer .col{
     margin: 10px 50px;
 }
+footer .col a{
+    text-decoration: dashed white;
+    color: #666;
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block;
+    }
