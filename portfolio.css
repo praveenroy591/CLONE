@@ -156,12 +156,12 @@ footer .col a{
     padding: 8px;
     display: block;
     }
-    footer button{
-        font-size: 20px;
-        background-color: #000;
-        background-image: none;
+    footer button {
+        background-color: #111;
+        border-radius: 1px;
         border: 1px solid #333;
-        margin: 0 0 30px 50px;
-        padding: 10px 24px;
-        border-radius: 0%;
+        color: #666;
+        box-shadow: none;
+        padding: 10px;
+        cursor: pointer;
     }
