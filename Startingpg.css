@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #0f0f0f;
+    color: white;
+    
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url("https://assets.nflxext.com/ffe/siteui/vlv3/4d2c5849-b306-4884-9036-6211f7ee0178/web/IN-en-20240930-TRIFECTA-perspective_1e1ca6cd-9e2d-4e9d-9e4b-ba0c2d3a0e31_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.navbar .nav-img img{
+    margin-left: 35px;
+    margin-top: 25px;
+    max-width: 15%;
+    padding: 0 8%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar .lang-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .lang-btn button {   
+    border-radius: 4px;
+    background-color: transparent; 
+    color: white;
+    border: 1px solid gray;
+    
+}
+.navbar .lang-btn .signin{
+    white-space: nowrap;  
+    width: auto;          
+    padding: 7px 15px;   
+    font-size: 16px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    margin-right: 160px;
+    font-weight: 600; 
+}
+
+.navbar .lang-btn .english{
+    display: flex;
+    border-radius: 2px;
+    white-space: nowrap;  
+    width: auto;          
+    padding: 7px 15px;   
+    font-size: 14px;
+}
+.navbar .lang-btn i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header-content{
+    text-align: center;
+    padding: 8% 0% 0%;
+    color: #fff;
+    margin: auto 30%;
+}
+.header-content h1{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 59px;
+    font-weight:800;
+    margin-top: 50px;
+}
+.header-content h3{
+    padding-top:3%;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.header-content p{
+    padding-top:5%;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 17px;
+}
+.header-content input{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 4%;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: #fff;
+    border-radius: 4px;
+}
+.header-content .box{
+    display: flex; 
+    
+  
+}
+.header-content .box .email{
+     background-color: rgba(255, 255, 255, 0.044);
+     padding: 18px 180px 18px 10px;
+
+}
+.header-content .box .getstrated {
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+   white-space: nowrap;
+   margin-top: 25px; 
+   padding: 0px 30px ;
+}
+
+.getstrated {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.header-content .box .getstrated i{
+    padding: 10px;
+}
+
+
+
+
+
+.section .line{
+    width: 100%;
+    height: 4px;
+    background-color: red;
+   
+}
+
+.section h1{
+    padding: 2% 10%;
+    font-size: 25px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif ;
+}
+.cards{
+    display: flex;
+    margin: 0px 14% 0px 10%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.cards::-webkit-scrollbar{
+    display: none;
+}
+
+.cards .card img{
+    border-radius: 4px;
+}
+.cards .card{
+    margin: 0px 15px 2%;
+    cursor: pointer;
+    transition: transform 400ms;
+}
+.cards .card:hover{
+    transform: scale(1.09);
+}
+
+
+/* -----------------container section ----------------------*/
+
+
+.section3{
+    display: flex;
+    margin: 0px 10%;
+}
+.container{
+    width: 30%;
+    background: linear-gradient(to bottom ,rgb(17, 17, 63), rgb(46, 11, 65));
+    margin: 0px 25px 20px;
+    border-radius: 20px;
+}
+.container .contain-content{
+    object-fit: contain;
+    padding: 15px 18px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.container .contain-content h3{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.container .contain-content p{
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+.container .contain-content img{
+    width: 30%;
+    height: 30%;
+    position: relative;
+    
+    padding: 20px 0px 0px 150px;
+}
+
+
+/*-------------- frequently asked questions ---------------*/
+
+.accordion{
+    margin-left: 10%;
+    width: 100%;
+    max-width: 1180px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size:34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0 ;
+    overflow: hidden; 
+    transition: max-height 0.5s,padding 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.accordion input[type="radio"]:checked+label+.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked+label::after{
+    transform: rotate(135deg);
+}
+.faq .header-content{
+    padding:0% 0% 5%;
+}
+
+.header-content p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.header-content .box2{
+    display: flex;
+}
+.header-content .email{
+    background-color: rgba(255, 255, 255, 0.038);
+    padding: 14px 290px 14px 10px;
+   
+}
+.header-content .getstarted{
+    background-color: rgb(229, 9, 20);;
+    border: none;
+    color: #fffdfd;
+    padding: 10px 20px 10px 14px;
+    margin-top: 4%;
+    white-space: nowrap;
+    border-radius: 3px ;
+    font-size: 16px;
+    font-weight: 600;
+}
+.header-content .getstarted:hover{
+    background-color: rgb(216, 23, 23); 
+    transition: 0.3s ease-in-out;
+}
+
+footer{
+    padding: 40px 4% 10px;
+    color: #666;
+}
+
+footer h1{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'arial';
+    margin: 0 0 20px 100px;
+    color: #b8b2b2;
+}
+footer .row{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px ;
+
+}
+footer .col{
+    margin: 10px 100px;
+}
+footer .col a{
+    color: #b1adad;
+    font-size: 14px;
+    padding: 8px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .lang-btn button i{
+    padding: 9px 9px;
+    border-radius: px;  
+}
+footer .lang-btn button{
+    border-radius: 4px;
+    background-color: transparent; 
+    color: white;
+    border: 1px solid gray;
+    margin: 40px 100px;
+}
+footer .lang-btn button{
+    border-radius: 4px;
+    background-color: transparent; 
+    color: white;
+    border: 1px solid gray;
+}
+
+h4{
+    color: #b1adad;
+    font-weight: 300;
+    padding: 0px 100px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
